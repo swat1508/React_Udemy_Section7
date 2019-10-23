@@ -1,0 +1,17 @@
+:global .Person {
+  width:60%;
+  margin:16px auto;
+  border:1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding : 16px;
+  text-align: center;
+}
+
+/*SS Change @media(min-width : 500px){ */
+            @media only screen and (max-width: 600px) {  /*SS Change */
+                .Person{
+                    width: 450px;
+                    background-color: yellow;   /*just to check working of media query */
+                  }
+            }
+
